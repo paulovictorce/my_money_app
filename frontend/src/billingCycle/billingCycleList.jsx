@@ -7,7 +7,6 @@ class BillingCycleList extends Component {
 
     componentWillMount() {
         this.props.getList()
-        console.log(this.props.list)
     }
 
     renderRows() {
@@ -22,7 +21,6 @@ class BillingCycleList extends Component {
     }
 
     render() {
-        console.log(this.props.list)
         return (
             <div>
                 <table className='table'>
